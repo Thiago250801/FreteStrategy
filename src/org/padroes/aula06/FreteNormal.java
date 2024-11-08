@@ -1,6 +1,6 @@
 package org.padroes.aula06;
 
-public class FreteNomal implements  FreteStrategy{
+public class FreteNormal implements  FreteStrategy{
     @Override
     public void calcularFrete(double km, double peso) {
         System.out.println("km: " + km);

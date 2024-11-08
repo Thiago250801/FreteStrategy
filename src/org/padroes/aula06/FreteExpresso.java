@@ -6,6 +6,6 @@ public class FreteExpresso implements FreteStrategy{
         System.out.println("km: " + km);
         System.out.println("Peso: " + peso);
         double calculo = (2*km) + (0.1 * peso) + 30;
-        System.out.println("O valor do frete expresso fica: " + calculo + "\n");
+        System.out.println("O valor do frete expresso fica: " + calculo);
     }
 }
