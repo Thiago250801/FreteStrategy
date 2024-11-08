@@ -8,7 +8,6 @@ public class Cliente {
 
         context.setFreteStrategy(freteExpresso);
 
-        System.out.println("Por gentileza defina");
         context.calcular(200, 32);
 
         context.setFreteStrategy(freteNomal);
