@@ -5,6 +5,7 @@ public class Cliente {
         FreteContext context = new FreteContext();
         FreteExpresso freteExpresso = new FreteExpresso();
         FreteNomal freteNomal = new FreteNomal();
+        FreteSedex freteSedex = new FreteSedex();
 
         context.setFreteStrategy(freteExpresso);
 
@@ -12,6 +13,9 @@ public class Cliente {
 
         context.setFreteStrategy(freteNomal);
         context.calcular(200,32);
+
+        context.setFreteStrategy(freteSedex);
+        context.calcular(200, 32);
 
 
     }
